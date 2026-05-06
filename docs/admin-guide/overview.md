@@ -51,6 +51,6 @@ Not all cards are visible to every admin. What you see depends on your role leve
 
 - [Users & Roles](./users-and-roles/users)
 - [Platforms](./platforms)
-- [Products](./products/products)
+- [Products](./products/)
 - [App Configuration](./app-configuration/configurations)
 - [Themes](./themes)

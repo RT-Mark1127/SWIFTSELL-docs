@@ -93,7 +93,7 @@ const config = {
                 to: '/docs/admin-guide/users-and-roles/users',
               },
               { label: 'Platforms', to: '/docs/admin-guide/platforms' },
-              { label: 'Products', to: '/docs/admin-guide/products/products' },
+              { label: 'Products', to: '/docs/admin-guide/products/' },
             ],
           },
         ],

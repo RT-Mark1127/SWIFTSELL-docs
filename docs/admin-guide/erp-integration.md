@@ -35,7 +35,7 @@ Document the full ERP integration configuration fields — connection URL, crede
 
 ## Configurator Engine
 
-Products can be configured to use either a **local configurator** or the **Infor CloudSuite (Cloud) configurator**. This is set per-product in the [Products](./products/products) administration page via the **Server** field.
+Products can be configured to use either a **local configurator** or the **Infor CloudSuite (Cloud) configurator**. This is set per-product in the [Products](./products/) administration page via the **Server** field.
 
 ## Troubleshooting
 
