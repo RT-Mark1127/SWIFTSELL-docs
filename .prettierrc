@@ -1,0 +1,14 @@
+{
+  "overrides": [
+    {
+      "files": "docs/**/*.md",
+      "options": {
+        "parser": "mdx"
+      }
+    }
+  ],
+  "arrowParens": "always",
+  "printWidth": 80,
+  "singleQuote": true,
+  "endOfLine": "auto"
+}
