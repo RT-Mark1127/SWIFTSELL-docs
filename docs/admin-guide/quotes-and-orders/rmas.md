@@ -40,7 +40,7 @@ Click **Add Line** to create a new detail line. Each line has:
 
 | Field              | Description                                     |
 | ------------------ | ----------------------------------------------- |
-| **Product Number** | The part number of the item being returned      |
+| **Product Number** | The ERP part number of the item being returned  |
 | **Model Number**   | The model number of the item                    |
 | **Quantity**       | The quantity being returned                     |
 | **Reason**         | A description of why the item is being returned |

@@ -25,7 +25,7 @@ Users are displayed in a table sorted by most recent activity. Each row shows:
 | **Last Name**  | The user's last name                                                    |
 | **Online**     | A status indicator — green if the user was active in the last 5 minutes |
 | **Role Level** | The role assigned to the user                                           |
-| **Platform**   | _(Super Admin only)_ The platform the user belongs to                   |
+| **Platform**   | _(Super Admin only)_ The [platform](../platforms) (tenant instance) the user belongs to |
 
 :::info
 System Admins see only users on their own platform. Super Admins see all users across all platforms.
@@ -43,7 +43,7 @@ System Admins see only users on their own platform. Super Admins see all users a
 | **Last Name**        | Optional                                                                                                |
 | **User Role**        | Select from available roles. You can only assign roles up to your own role level.                       |
 | **Checkout Type**    | **Place Order** — submits directly to the ERP; **Self Checkout (Stripe)** — user pays via Stripe        |
-| **Platform**         | _(Super Admin only)_ The platform to assign this user to                                                |
+| **Platform**         | _(Super Admin only)_ The [platform](../platforms) (tenant instance) to assign this user to              |
 | **Password**         | Required on create. Must contain 8+ characters with uppercase, lowercase, number, and special character |
 | **Confirm Password** | Must match Password                                                                                     |
 

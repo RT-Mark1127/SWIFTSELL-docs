@@ -11,11 +11,7 @@ The Configurator walks you through selecting options for a product step by step.
 
 The Configurator is divided into **pages** of options. Each page presents a set of choices — you work through them in order and move to the next page when all required selections are made.
 
-:::caution[TODO]
-
-Add screenshot of the configurator form with options
-
-:::
+![Configurator](/img/user-guide/configurator/configurator.png)
 
 ## Layout
 

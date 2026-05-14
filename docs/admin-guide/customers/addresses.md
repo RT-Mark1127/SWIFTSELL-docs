@@ -19,7 +19,7 @@ Add screenshot of the Addresses list
 
 ## Address List
 
-Addresses are listed sorted alphabetically. Each record includes street, city, state/province, postal code, and country.
+Addresses are sorted alphabetically. Each record includes street, city, state/province, postal code, and country.
 
 ## Creating an Address
 

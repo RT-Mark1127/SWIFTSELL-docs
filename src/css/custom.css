@@ -29,6 +29,11 @@
   --ifm-background-surface-color: #fff;
   --ifm-navbar-background-color:  var(--ss-charcoal);
   --ifm-footer-background-color:  var(--ss-charcoal);
+
+  /* Theme-aware surface tokens */
+  --ss-navbar-bg: var(--ss-charcoal);
+  --ss-hero-bg:   var(--ss-charcoal);
+  --ss-hero-text: #ffffff;
 }
 
 /* ── Dark mode ────────────────────────────────────────────────────────────── */
@@ -47,11 +52,29 @@
   --ifm-footer-background-color:  #111111;
   --ifm-font-color-base:          #f0ead8;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Theme-aware surface tokens */
+  --ss-navbar-bg: #111111;
+  --ss-hero-bg:   #161616;
+  --ss-hero-text: #f0ead8;
+}
+
+/* ── Heading anchor links ─────────────────────────────────────────────────── */
+.hash-link {
+  opacity: 0;
+}
+.hash-link:focus {
+  opacity: 1;
+}
+
+/* ── Doc content images ───────────────────────────────────────────────────── */
+.markdown img {
+  border-radius: 6px;
 }
 
 /* ── Navbar ───────────────────────────────────────────────────────────────── */
 .theme-layout-navbar {
-  background-color: var(--ss-charcoal);
+  background-color: var(--ss-navbar-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -67,18 +90,18 @@
 
 /* ── Footer ───────────────────────────────────────────────────────────────── */
 .theme-layout-footer {
-  background-color: var(--ss-charcoal) !important;
+  background-color: var(--ss-navbar-bg) !important;
 }
 
 /* ── Homepage hero ────────────────────────────────────────────────────────── */
 .hero--primary {
-  background-color: var(--ss-charcoal) !important;
+  background-color: var(--ss-hero-bg) !important;
   background-image: none !important;
 }
 
 .hero--primary .hero__title,
 .hero--primary .hero__subtitle {
-  color: #ffffff;
+  color: var(--ss-hero-text);
 }
 
 /* "Get Started" CTA — green */

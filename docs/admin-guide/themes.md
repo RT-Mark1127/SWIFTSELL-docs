@@ -70,16 +70,16 @@ From the list you can:
 | **Gray Dark**                 | Darker gray                                                |
 | **Box Shadow Color**          | Color for drop shadows                                     |
 | **Text Dark**                 | Primary text color                                         |
-| **Danger**                    | Color for destructive actions and error states             |
-| **Success**                   | Color for success states and confirmations                 |
-| **Warning**                   | Color for warning states                                   |
+| **Danger**                    | Color for destructive actions and errors (e.g., delete buttons, form error messages)  |
+| **Success**                   | Color for success confirmations (e.g., order placed, changes saved)                   |
+| **Warning**                   | Color for warnings and cautions (e.g., unsaved changes alerts)                        |
 
 ### Other
 
 | Field             | Description                                          |
 | ----------------- | ---------------------------------------------------- |
 | **Border Radius** | Controls the roundness of UI elements                |
-| **Breakpoints**   | Responsive breakpoint widths (array of pixel values) |
+| **Breakpoints**   | The screen widths (in pixels) at which the layout adapts to different screen sizes (e.g., `[768, 1024, 1440]`) |
 
 ## Activating a Theme
 

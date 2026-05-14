@@ -11,11 +11,7 @@ The Product Catalog is the starting point for building a quote. It lists all pro
 
 Navigate to the **Product Catalog** from the main navigation bar. Products are displayed in a grid or list view.
 
-:::caution[TODO]
-
-Add screenshot of the catalog grid
-
-:::
+![Navigation bar](/img/user-guide/product-catalog/productcatalog.png)
 
 ## Searching and Filtering
 

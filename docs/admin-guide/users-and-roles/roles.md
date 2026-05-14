@@ -17,7 +17,7 @@ Add screenshot of the Roles list
 
 ## How Roles Work
 
-A role has a **name**, a **description**, and a **Role Access Level**. The access level maps to one of the system's fixed permission tiers — it's the access level that actually controls what the user can do, not the name.
+A role has a **name**, a **description**, and a **Role Access Level**. The access level maps to one of the system's fixed permission tiers, which determine what the user can do.
 
 | Access Level | Permission Tier |
 | ------------ | --------------- |

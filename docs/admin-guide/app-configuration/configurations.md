@@ -5,7 +5,7 @@ title: App Configurations
 
 # App Configurations
 
-**App Configurations** store platform-level settings that control application behavior. Each configuration belongs to a type and holds a value that the application reads at runtime.
+**App Configurations** store platform-level settings that control how SWIFTSELL behaves. Each configuration belongs to a type and holds a value that SWIFTSELL reads when running. For example, a configuration might store your order notification email address or the settings for your email server.
 
 ## Accessing App Configurations
 

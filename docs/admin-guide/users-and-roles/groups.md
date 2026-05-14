@@ -21,7 +21,7 @@ Add screenshot of the Groups list
 
 | Field                      | Notes                                                                                                                                                            |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Assign to Platform**     | Required. The platform this group belongs to.                                                                                                                    |
+| **Assign to Platform**     | Required. The [platform](../platforms) (tenant instance) this group belongs to.                                                                                  |
 | **Name**                   | The group's display name                                                                                                                                         |
 | **Default Customer**       | Optional. When set, users in this group can **only** see this customer — all other customers are hidden from them on quotes. Only customers with an ERP ID are available here. |
 | **Description**            | Optional free-text description                                                                                                                                                 |
@@ -60,7 +60,7 @@ Platform
         └── Users (many)  →  assigned via the group form
 ```
 
-A user can belong to multiple groups. Internally, each user record stores all of their group memberships as a list (`groupIds`) and tracks their currently active group (`groupId`). The group assignment is managed from the group form here — not from the user profile.
+A user can belong to multiple groups. Internally, each user record stores all of their group memberships as a list (`groupIds`) and tracks their currently active group (`groupId`). The group assignment is managed from the group form — not from the user profile.
 
 :::info
 Customers also store a back-reference to their group (`groupId`). This means a customer record can be directly associated with a group, and that association is visible on the customer record.
@@ -68,4 +68,4 @@ Customers also store a back-reference to their group (`groupId`). This means a c
 
 - **Product Lists** are managed under [Administration → Products → Product Lists](../products/product-lists).
 - **Customers** are managed under [Administration → Customers](../customers/managing-customers).
-- Users are assigned a group via the group form here, not from the user form.
+- Users are assigned a group via the group form, not from the user form.

@@ -5,7 +5,7 @@ title: SMTP Settings
 
 # SMTP Settings
 
-**SMTP Settings** configure the outbound email server SWIFTSELL uses to send system emails. This section is built on top of the App Configuration system using the `PLATFORM_EMAIL` configuration type.
+**SMTP Settings** configure the email server SWIFTSELL uses to send system emails — such as password resets and order confirmations. If your organization uses Gmail, Outlook, or another email provider, you enter those server details here.
 
 :::note
 SMTP Settings require **Super Admin** access. Changes may take up to 5 minutes to take effect.

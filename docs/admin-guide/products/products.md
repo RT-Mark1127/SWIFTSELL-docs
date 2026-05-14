@@ -17,7 +17,7 @@ Add screenshot of the Products list
 
 ## Product List
 
-Products are listed sorted by product number. Each row shows the product number, name, and status.
+Products are sorted by product number. Each row shows the product number, name, and status.
 
 ## Creating a Product
 
@@ -51,5 +51,5 @@ Document the isQuickConfig and isNonConfigurable flags and their effects
 
 ## Related
 
-- [Product Groups](./product-groups)
-- [Product Lists](./product-lists)
+- [Product Groups](./product-groups.md)
+- [Product Lists](./product-lists.md)

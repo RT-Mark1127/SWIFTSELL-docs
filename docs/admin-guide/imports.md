@@ -5,7 +5,7 @@ title: Imports
 
 # Imports
 
-The **Imports** section allows administrators to bulk-import data into SwiftSell from files. This is useful for initial data setup or ongoing synchronization of large data sets.
+The **Imports** section allows administrators to bulk-import data into SWIFTSELL from files. This is useful for initial data setup or ongoing synchronization of large data sets.
 
 ## Accessing Imports
 

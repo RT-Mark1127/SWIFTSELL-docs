@@ -7,19 +7,37 @@ const config = {
   tagline: 'Configure, price, and quote with confidence.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://docs.swiftsell.com',
-  baseUrl: '/',
+  url: 'https://RT-Mark1127.github.io',
+  baseUrl: '/SWIFTSELL-docs/',
 
-  organizationName: 'SWIFTSELL',
-  projectName: 'SwiftSell-docs',
+  trailingSlash: false,
+
+  organizationName: 'RT-Mark1127',
+  projectName: 'SWIFTSELL-docs',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexDocs: true,
+        indexPages: false,
+        docsRouteBasePath: '/docs',
+      },
+    ],
+  ],
 
   presets: [
     [

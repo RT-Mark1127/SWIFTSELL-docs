@@ -11,11 +11,7 @@ The **Orders** page shows all orders you have placed — quotes that have been s
 
 Navigate to your profile menu and select **My Orders**, or click **Orders** in the navigation bar.
 
-:::caution[TODO]
-
-Add screenshot of the Orders page
-
-:::
+![Orders](/img/user-guide/orders/orders.png)
 
 ## Order List
 

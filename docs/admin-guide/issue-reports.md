@@ -5,7 +5,7 @@ title: Issue Reports
 
 # Issue Reports
 
-The **Issue Reports** section collects error and feedback reports submitted by users from within the application.
+The **Issue Reports** section collects error and feedback reports submitted by users from within SWIFTSELL.
 
 :::note
 Issue Reports require **Super Admin** access.
